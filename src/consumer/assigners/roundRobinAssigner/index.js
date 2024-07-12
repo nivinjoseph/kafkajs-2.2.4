@@ -5,7 +5,7 @@ const { MemberMetadata, MemberAssignment } = require('../../assignerProtocol')
  * @type {import('types').PartitionAssigner}
  */
 module.exports = ({ cluster }) => ({
-  name: 'RoundRobinAssigner',
+  name: 'RoundRobin',
   version: 0,
 
   /**
